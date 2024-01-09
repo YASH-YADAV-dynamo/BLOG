@@ -1,0 +1,45 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/al.css";
+body{
+    display: flex;
+    justify-content: right;
+    margin: 0 auto;
+    margin-top: 15vh;
+    padding: 20px;
+    background: url(https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+}
+h1{
+    font-family: 'gilroy';
+    color: black;
+    
+    
+}
+
+.box{
+    padding: 20px;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    
+}
+
+input{
+    margin: 5px;
+    outline: none;
+    background: none;
+    color: white;
+    border-top: none;
+    border-right: none;
+    border-left: 2px solid greenyellow;
+    border-bottom: 2px solid greenyellow;
+
+
+}
+#btn{
+    border: 2.5px solid greenyellow;
+    background-color: green;
+}
