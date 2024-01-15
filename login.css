@@ -11,7 +11,7 @@ body{
 }
 
 
-}
+
 h1{
     font-family: 'gilroy';
     color: black;
@@ -22,9 +22,12 @@ h1{
 .box{
     padding: 20px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     height: 500px;
     width: 500px;
-    
+    padding-right: 650px;
+    padding-top: 50px;
 }
 
 input{
@@ -32,14 +35,14 @@ input{
     outline: none;
     background: none;
     color: white;
-    border-top: none;
+    border-top: 3px solid greenyellow;
     border-right: none;
-    border-left: 2px solid greenyellow;
-    border-bottom: 2px solid greenyellow;
-
-
+    border-left: 4px solid greenyellow;
+    border-bottom: 3px solid greenyellow;
+    font-size: xx-large;
+    background-color: aliceblue;
 }
 #btn{
     border: 2.5px solid greenyellow;
-    background-color: green;
+    background-color: orangered;
 }
