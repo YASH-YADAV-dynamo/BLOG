@@ -20,16 +20,16 @@ app.post('/submit', (req, res) => {
     fs.appendFile('data.txt', dataToWrite, (err) => {
         if (err) {
             console.error(err);
-            res.status(500).send('Error saving data');
+            res.status(500).send('404- Error saving data');
         } else {
             console.log('Data has been saved to data.txt');
-            res.status(200).send('Form data submitted successfully!');
+            res.status(200).send('Form data has been submitted successfully!');
         }
     });
 });
 
 const port = 3000;
 app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
+    console.log(`Your server is running on http://localhost:${port}`);
 });
 
